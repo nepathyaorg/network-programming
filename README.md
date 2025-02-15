@@ -35,3 +35,6 @@ network-programming(repo)
             |
             |--note1.pdf
 ```
+
+### Note:
+> Any code you write should be clear to you. Be confident and ready to explain it to your instructor or friends during the presentation.
