@@ -1,6 +1,7 @@
 Question 1: What is URL? Give an example of a URL that shows each components of URL. Diagrammatic representation is more preferred.
 
 Answer:
+
 A URL (Uniform Resource Locator) is the address used to access resources on the internet. It is essentially a reference to a specific resource (like a webpage, file, or image) that can be retrieved by a web browser.
 
 A URL typically has several components, and these components help in specifying the location and method of accessing the resource.
@@ -31,6 +32,8 @@ Fragment: #section2 (for a specific section on the page)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Question 2:URLs vs URIs with examples for each. Can all URLs be URIs? Why?
+
+Answer:
 
 URI (Uniform Resource Identifier):
 A URI is a broader concept that refers to any string of characters used to identify a resource, either by location, name, or both. A URI can be further classified into two categories: URL and URN (Uniform Resource Name). Essentially, every URL is a URI, but not every URI is a URL.
@@ -72,6 +75,7 @@ Question 3:Write a JAVA program for each of the following:
         To access password protected site asking user to promt for username and password.
 
 Answer:
+
 ###########<-----Java program To illustrate important methods of URL class.----->##################
 import java.net.*;
 

@@ -1,6 +1,7 @@
 Question1: How does client server architecture works?
 
 Answer: 
+
 Client-server architecture works through a process where a client requests services or resources from a server, which responds to the request. The client and server are typically separate machines or processes, and they communicate over a network.
 
 Client server architecture working->
@@ -32,6 +33,7 @@ If additional actions are required (e.g., navigating between pages or submitting
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Question 2: What are the factors to be considered when designing a software?
+
 Answer:
 
 When designing software, several factors must be considered to ensure it is functional, efficient, and user-friendly.
@@ -106,6 +108,7 @@ Here are key factors :
 Question3: Why do we really need network programming tools and platform? Explain some of them.
 
 Answer:
+
 Network programming tools and platforms are essential for developing, debugging, and managing network-based applications. These tools provide capabilities to efficiently design, implement, and monitor network communication protocols, applications, and services. Without such tools, building, testing, and optimizing complex networked systems would be highly difficult and time-consuming. Below is an explanation of why they are needed and examples of some key network programming tools and platforms:
 1. Network Simulation and Testing
 * Need: Network programming often involves complex interactions between distributed systems. To test how different network protocols or services behave under various conditions (like different latencies, failures, or bandwidth), tools are necessary to simulate these environments.

@@ -1,6 +1,7 @@
 Question1:Write a JAVA program to illustrate different types of address.
 
 Answer:
+
 import java.io.IOException;
 import java.net.InetAddress;
 
