@@ -1,4 +1,5 @@
 Question1: How does client server architecture works?
+
 Answer: 
 Client-server architecture is a networked model where tasks and services are divided between two main entities: the client and the server. In this setup, the client is typically a device or software that requests services or resources, such as a web browser or mobile app. The server, on the other hand, is a system or computer that provides the requested services, such as hosting websites or storing data. When a client needs a resource, it sends a request to the server over a network. The server processes this request, which may involve interacting with databases or other systems, and then sends a response back to the client. This communication is often facilitated through standardized protocols like HTTP for web requests or FTP for file transfers. The client-server model promotes efficiency and scalability, allowing servers to handle requests from multiple clients simultaneously while maintaining a clear division of responsibilities.
 
