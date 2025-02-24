@@ -95,13 +95,21 @@ public class IPDEMO {
 
 //        To get IP, CNAME of the given Host
         String Hname = "bhuvanbhusal.com.np";
+
         InetAddress iName= InetAddress.getByName(Hname);
+
         String hostname = iName.getHostName();
+
         String ip = iName.getHostAddress();
+
         String Cname = iName.getCanonicalHostName();
+
         System.out.println("The Host Name is: "+hostname);
+
         System.out.println("The Ip Address is: "+ip);
+
         System.out.println("The CNAME is: "+Cname+"\n");
+
 
         // TO check the given IP is IPV4 or Ipv6
         byte[] hostAddress =lAddress.getAddress();
