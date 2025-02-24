@@ -73,10 +73,12 @@ Question 2: In what ways getHostName() differs from getCannonicalHostName()? Wri
             #Utilizes getAddress() to determine if the given address is IPv4 or IPv6.
 
 Answer:
+
 Output Form:
 
 getHostName() gives the short or simple name.
 getCanonicalHostName() gives the fully qualified domain name (FQDN), if available.
+
 DNS Lookup:
 
 getHostName() may return just a simple or local name without performing a DNS lookup.
