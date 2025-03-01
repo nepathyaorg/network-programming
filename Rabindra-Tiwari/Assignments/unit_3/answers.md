@@ -25,7 +25,7 @@ https://www.example.com:8080/path/to/resource?name=RohanTiwari&age=20#section2
 - **Domain**: `www.example.com`
 - **Port**: `8080` (optional)
 - **Path**: `/path/to/resource`
-- **Query String**: `?name=JohnDoe&age=30`
+- **Query String**: `?name=RohanTiwari&age=30`
 - **Fragment**: `#section2`
 
 #### Diagrammatic Representation:
