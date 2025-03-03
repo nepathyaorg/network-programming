@@ -90,7 +90,6 @@ public class URLExample {
 }
 ```
 
-**Romanized Nepali comments**:
 - URL ko object banaye, tyo URL bata protocol, host, port, path, query, ra fragment janne.
 
 ---
