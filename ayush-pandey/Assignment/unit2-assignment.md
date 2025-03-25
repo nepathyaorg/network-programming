@@ -1,6 +1,6 @@
 # Unit 2 Assignments....
 
-## Halka Parichaye
+## introduction
 Networking in Java allows communication between devices over a network. The `InetAddress` class is used to handle IP addresses, hostnames, and different types of network addresses. Below are two Java programs:
 
 1. Illustrating different types of addresses.
