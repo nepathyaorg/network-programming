@@ -90,7 +90,7 @@ public class URLExample {
 }
 ```
 
-- URL ko object banaye, tyo URL bata protocol, host, port, path, query, ra fragment janne.
+
 
 ---
 
