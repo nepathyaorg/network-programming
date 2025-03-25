@@ -116,7 +116,7 @@ public class URLDataFetch {
 }
 ```
 
-- URL bata data read garne, stream open garera.
+
 
 ---
 
@@ -139,7 +139,7 @@ public class URLEquality {
 }
 ```
 
-- `equals()` le URL ko samanata herne, ra `sameFile()` le dui URL ekai file ma cha ki nai herne.
+
 
 ---
 
@@ -161,7 +161,6 @@ public class URLEncoderExample {
 }
 ```
 
-- Special characters haru encode garne ra decode garne `URLEncoder` ra `URLDecoder` ko use garera.
 
 ---
 
@@ -189,7 +188,7 @@ public class PasswordProtectedSite {
 }
 ```
 
-- Password protected site ma login garne, default authentication use garera.
+
 
 ---
 
