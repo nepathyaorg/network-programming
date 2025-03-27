@@ -1,4 +1,4 @@
-- In what ways getHostName() differs from getCannonicalHostName()?
+**In what ways getHostName() differs from getCannonicalHostName()?**
 
 1. getHostName()
 
