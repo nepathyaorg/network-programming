@@ -1,4 +1,5 @@
-1. In what ways getHostName() differs from getCannonicalHostName()?
+- In what ways getHostName() differs from getCannonicalHostName()?
+
 1. getHostName()
 
 - Retrieves the hostname based on the current system's settings or a simple DNS lookup.
