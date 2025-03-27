@@ -33,7 +33,8 @@ Working Principle:
    Licensing and copyright issues.
 
 **Why do we really need network programming tools and platform? Explain some of them.**
-Network programming tools and platforms are essential for developing and managing network-based applications such as web services, cloud applications, and communication systems.
+
+- Network programming tools and platforms are essential for developing and managing network-based applications such as web services, cloud applications, and communication systems.
 
 Reasons for Network Programming:
 
