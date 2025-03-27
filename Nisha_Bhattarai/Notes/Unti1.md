@@ -1,5 +1,6 @@
 **How does client server architecture works?**
-Client-Server Architecture is a distributed computing model where clients (users/devices) request services, and servers provide those services. This model is widely used in networking, web applications, and cloud computing.
+
+- Client-Server Architecture is a distributed computing model where clients (users/devices) request services, and servers provide those services. This model is widely used in networking, web applications, and cloud computing.
 
 Working Principle:
 
@@ -9,7 +10,8 @@ Working Principle:
 4. Client Displays Data: The client processes and displays the received response.
 
 **What are the factors to be considered when designing a software?**
-When designing software, various technical, business, and user-experience factors should be considered:
+
+- When designing software, various technical, business, and user-experience factors should be considered:
 
 1. Functional Requirements:
    Define core features and functionalities (e.g., login system, payment gateway).
