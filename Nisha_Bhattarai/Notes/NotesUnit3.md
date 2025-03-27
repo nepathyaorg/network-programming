@@ -1,17 +1,17 @@
-- What is URL? Give an example of a URL that shows each components of URL. Diagrammatic representation is more preferred.
-  A Uniform Resource Locator (URL) is an address used to access resources on the internet. It specifies the location of a resource and how to retrieve it.
-  Components of a URL (with Example)
-  https://www.example.com:8080/path/to/resource?query=value#section
-  Component Example Description
-  Scheme (Protocol) https:// Defines how to access the resource (HTTP, HTTPS, FTP, etc.).
-  Host (Domain) www.example.com The website’s domain name or IP address.
-  Port :8080 Specifies the port number (default for HTTP: 80, HTTPS: 443).
-  Path /path/to/resource Specifies the resource's location on the server.
-  Query Parameters ?query=value Provides additional information to the server.
-  Fragment #section Points to a specific section within the resource.
+**What is URL? Give an example of a URL that shows each components of URL. Diagrammatic representation is more preferred.**
+A Uniform Resource Locator (URL) is an address used to access resources on the internet. It specifies the location of a resource and how to retrieve it.
+Components of a URL (with Example)
+https://www.example.com:8080/path/to/resource?query=value#section
+Component Example Description
+Scheme (Protocol) https:// Defines how to access the resource (HTTP, HTTPS, FTP, etc.).
+Host (Domain) www.example.com The website’s domain name or IP address.
+Port :8080 Specifies the port number (default for HTTP: 80, HTTPS: 443).
+Path /path/to/resource Specifies the resource's location on the server.
+Query Parameters ?query=value Provides additional information to the server.
+Fragment #section Points to a specific section within the resource.
 
-- URLs vs URIs with examples for each. Can all URLs be URIs? Why?
-  A Uniform Resource Identifier (URI) is a more general concept that identifies a resource, whereas a URL is a type of URI that locates a resource.
+**URLs vs URIs with examples for each. Can all URLs be URIs? Why?**
+A Uniform Resource Identifier (URI) is a more general concept that identifies a resource, whereas a URL is a type of URI that locates a resource.
 
 | Feature | URL |URI |
 
