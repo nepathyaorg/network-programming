@@ -2,6 +2,8 @@
 Client-Server architecture is a model where clients (users) request services from a central server. The server processes the request, retrieves the necessary data, and sends it back to the client.
 
 ## How it works:
+![Client-Server Architecture](https://onlinenotesnepal.com/storage/images/mnfGHJsSJvcEADzmlWtbpgw2jYXNrq9i3BbAO4QE.png)
+
 - The **client** sends a request (e.g., accessing a website, fetching data).
 - The **server** processes the request and responds with the requested information.
 - Communication happens through network protocols like HTTP, FTP, or TCP/IP.
