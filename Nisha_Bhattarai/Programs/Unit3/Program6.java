@@ -1,4 +1,4 @@
- package Nisha_Bhattarai.Programs.Unit3;
+package Nisha_Bhattarai.Programs.Unit3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,12 +7,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Base64;
 import java.util.Scanner;
+// - To access password protected site asking user to promt for username and password.
 
 public class Program6 {
     public static void main(String[] args) {
-        
-    
-Scanner scanner = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter Username: ");
         String username = scanner.nextLine();
@@ -40,5 +40,6 @@ Scanner scanner = new Scanner(System.in);
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
-     
-}}
+
+    }
+}

@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+// - To access password protected site using default authentication.
 public class Program5 {
     public static void main(String[] args) {
         try {

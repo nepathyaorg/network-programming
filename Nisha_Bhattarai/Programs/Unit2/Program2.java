@@ -1,6 +1,8 @@
 package Nisha_Bhattarai.Programs.Unit2;
+
 import java.net.InetAddress;
 
+// 1. Write a JAVA program to illustrate different types of address.
 public class Program2 {
     public static void main(String[] args) {
         try {
@@ -9,10 +11,9 @@ public class Program2 {
 
             System.out.println("Resolved Address: " + address);
 
-         
             if (address.isAnyLocalAddress()) {
                 System.out.println("It is a wildcard address.");
-            } 
+            }
             if (address.isLoopbackAddress()) {
                 System.out.println("It is a localhost (loopback) address.");
             }
@@ -31,7 +32,7 @@ public class Program2 {
                     System.out.println("It is a global multicast address.");
                 } else if (address.isMCOrgLocal()) {
                     System.out.println("It is an organization multicast address.");
-                }else if(address.isMCLinkLocal()){
+                } else if (address.isMCLinkLocal()) {
                     System.out.println("It is subnet wise muticast address");
                 }
             }
