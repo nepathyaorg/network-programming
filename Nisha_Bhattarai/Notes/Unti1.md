@@ -1,7 +1,7 @@
 **How does client server architecture works?**
 
 - Client-Server Architecture is a distributed computing model where clients (users/devices) request services, and servers provide those services. This model is widely used in networking, web applications, and cloud computing.
-  <img src="./Client-Server-Architecture-1.png" width="350px" height="350px">
+  <img src="./Client-Server-Architecture-1.png" width="400px" height="400px">
 
 Working Principle:
 
