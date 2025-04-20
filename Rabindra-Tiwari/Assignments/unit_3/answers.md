@@ -28,18 +28,6 @@ https://www.example.com:8080/path/to/resource?name=RohanTiwari&age=20#section2
 - **Query String**: `?name=RohanTiwari&age=30`
 - **Fragment**: `#section2`
 
-#### Diagrammatic Representation:
-
-```
--------------------------------------------------------
-| Protocol | Domain         | Port  | Path   | Query  | Fragment |
--------------------------------------------------------
-| https    | www.example.com | 8080  | /path/to/resource | ?name=Rohan&age=20 | #section2 |
--------------------------------------------------------
-```
-
----
-
 ## 2. URLs vs URIs
 
 - **URL (Uniform Resource Locator)**: Specifies the location of a resource on the internet and the protocol used to access it (e.g., `https://www.example.com`).
