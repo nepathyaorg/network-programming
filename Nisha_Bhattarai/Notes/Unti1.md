@@ -1,6 +1,7 @@
 **How does client server architecture works?**
 
 - Client-Server Architecture is a distributed computing model where clients (users/devices) request services, and servers provide those services. This model is widely used in networking, web applications, and cloud computing.
+  <img src="../../../../../Pictures/Saved Pictures/Client-Server-Architecture-1.png">
 
 Working Principle:
 
@@ -45,7 +46,6 @@ Reasons for Network Programming:
 5. Automation: Automates network tasks like file transfers and system monitoring.
    Some Popular Network Programming Tools & Platforms:
    Java Networking (java.net) -> Provides support for TCP, UDP, and HTTP-based communication.
-   Python Socket Library -> Used for building network applications (server-client communication).
    Wireshark -> Network packet analyzer for monitoring network traffic.
    cURL -> Command-line tool for sending HTTP requests.
    Postman -> API testing and network request debugging.
