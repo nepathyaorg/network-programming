@@ -1,30 +1,30 @@
 
 URL and URI Concepts with Java Programs
 
-1. What is a URL?
+### 1. What is a URL?
 
 A URL (Uniform Resource Locator) is the address used to access resources on the web. It specifies the protocol used to communicate, the domain name or IP address of the server, the path to the resource, and sometimes additional parameters or query strings.
 
 Components of a URL:
 
-1. **Protocol**: Defines the method used to access the resource (e.g., HTTP, HTTPS, FTP).
-2. **Host**: The domain name or IP address of the server.
-3. **Port**: The port number (optional, default is 80 for HTTP and 443 for HTTPS).
-4. **Path**: The location of the resource on the server.
-5. **Query**: Optional. It contains parameters for the server (e.g., search parameters).
-6. **Fragment**: Optional. Refers to a specific part of the resource.
+1. Protocol: Defines the method used to access the resource (e.g., HTTP, HTTPS, FTP).
+2. Host: The domain name or IP address of the server.
+3. Port: The port number (optional, default is 80 for HTTP and 443 for HTTPS).
+4. Path: The location of the resource on the server.
+5. Query: Optional. It contains parameters for the server (e.g., search parameters).
+6. Fragment: Optional. Refers to a specific part of the resource.
 
 Example of a URL:
 ```
 https://www.example.com:443/path/to/resource?name=value#section
 ```
 
-- `https`: Protocol
-- `www.example.com`: Host
-- `443`: Port
-- `/path/to/resource`: Path
-- `name=value`: Query
-- `#section`: Fragment
+- https: Protocol
+- www.example.com: Host
+- 443: Port
+- /path/to/resource: Path
+- name=value: Query
+- #section: Fragment
 
 Diagrammatic Representation:
 
@@ -41,15 +41,15 @@ Protocol://Host:Port/Path?Query#Fragment
 
 ---
 
-2. URLs vs URIs
+URLs vs URIs
 
 A URL (Uniform Resource Locator) is a type of URI (Uniform Resource Identifier). While all URLs are URIs, not all URIs are URLs.
 
-- URL: Specifies the location of a resource along with the method used to access it (e.g., `http://www.example.com`).
+- URL: Specifies the location of a resource along with the method used to access it (e.g., http://www.example.com).
   
-- URI: A broader term that refers to any identifier that can be used to access a resource, which could be either a URL or a URN (Uniform Resource Name). A URN doesn't specify the location, just the name of the resource (e.g., `urn:isbn:0451450523`).
+- URI: A broader term that refers to any identifier that can be used to access a resource, which could be either a URL or a URN (Uniform Resource Name). A URN doesn't specify the location, just the name of the resource (e.g., urn:isbn:0451450523).
 
-Can all URLs be URIs? Yes, all URLs are URIs because they are identifiers that specify both the location and method to access resources.
+### Can all URLs be URIs? Yes, all URLs are URIs because they are identifiers that specify both the location and method to access resources.
 
 ---
 

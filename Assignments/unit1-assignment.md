@@ -1,3 +1,5 @@
+### 1. How does client server architecture works?
+
 Client-Server architecture is a model where clients (users) request services from a central server. The server processes the request, retrieves the necessary data, and sends it back to the client.
 
 How it works:  
@@ -10,6 +12,8 @@ How it works:
 Example: A web browser (client) requests a webpage from a web server, and the server responds with the webpage content.
 
 ---
+
+### 2. What are the factors to be considered when designing a software?
 
 When designing software, several factors need to be considered:
 
@@ -24,6 +28,7 @@ When designing software, several factors need to be considered:
 Example: While designing a mobile app, ensuring it works on both Android and iOS is a compatibility factor.
 
 ---
+### 3. Why do we really need network programming tools and platform? Explain some of them.
 
 Network programming tools and platforms help developers create applications that communicate over networks like the internet. They are essential for:
 

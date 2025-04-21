@@ -1,14 +1,7 @@
-Unit 2 Assignments....
+Networking in Java allows communication between devices over a network. The `InetAddress` class is used to handle IP addresses, hostnames, and different types of network addresses.
 
-Networking in Java allows communication between devices over a network. The `InetAddress` class is used to handle IP addresses, hostnames, and different types of network addresses. Below are two Java programs:
-
-1. Illustrating different types of addresses.
-2. Demonstrating the difference between `getHostName()` and `getCanonicalHostName()` along with determining if an address is IPv4 or IPv6.
-
+### 1. Write a JAVA program to illustrate different types of address.
 ---
-
-1. JAVA Program to Illustrate Different Types of Address
-
 ```java
 import java.net.*;
 
@@ -35,7 +28,7 @@ public class AddressTypes {
 
 ---
 
-2. Difference Between `getHostName()` and `getCanonicalHostName()`
+### 2. Difference Between getHostName() and getCanonicalHostName().
 
 - `getHostName()`: Domain name dincha tara sabai case ma accurate hudaina.
 - `getCanonicalHostName()`: Fully qualified domain name dincha, jasle DNS resolution garcha.
