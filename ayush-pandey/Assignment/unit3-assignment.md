@@ -63,25 +63,25 @@ import java.net.*;
 public class URLExample {
     public static void main(String[] args) throws MalformedURLException {
         try {
-            // URL object banako
+           
             URL url = new URL("https://www.example.com:8080/path/to/resource?name=value#section");
 
-            // Protocol dekhaune
+           
             System.out.println("Protocol: " + url.getProtocol());  // Output: https
 
-            // Host dekhaune
+           
             System.out.println("Host: " + url.getHost());  // Output: www.example.com
 
-            // Port dekhaune
+          
             System.out.println("Port: " + url.getPort());  // Output: 8080
 
-            // Path dekhaune
+           
             System.out.println("Path: " + url.getPath());  // Output: /path/to/resource
 
-            // Query dekhaune
+         
             System.out.println("Query: " + url.getQuery());  // Output: name=value
 
-            // Fragment dekhaune
+        
             System.out.println("Fragment: " + url.getRef());  // Output: section
         } catch (MalformedURLException e) {
             System.out.println("Invalid URL");
@@ -90,7 +90,7 @@ public class URLExample {
 }
 ```
 
-
+.
 
 ---
 
@@ -102,10 +102,9 @@ import java.net.*;
 
 public class URLDataFetch {
     public static void main(String[] args) throws IOException {
-        // URL object banaye
+      
         URL url = new URL("https://www.example.com");
 
-        // InputStream bata data read garne
         try (BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()))) {
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
@@ -130,11 +129,11 @@ public class URLEquality {
         URL url1 = new URL("https://www.example.com");
         URL url2 = new URL("https://www.example.com");
 
-        // equals() method ko use
-        System.out.println("Are URLs equal? " + url1.equals(url2));  // Output: true
+       
+        System.out.println("Are URLs equal? " + url1.equals(url2));  
 
-        // sameFile() method ko use
-        System.out.println("Are URLs pointing to the same file? " + url1.sameFile(url2));  // Output: true
+       
+        System.out.println("Are URLs pointing to the same file? " + url1.sameFile(url2));   
     }
 }
 ```
@@ -150,17 +149,18 @@ import java.io.*;
 
 public class URLEncoderExample {
     public static void main(String[] args) throws UnsupportedEncodingException {
-        // Special characters encode garne
+        
         String encoded = URLEncoder.encode("Hello World! @ # $", "UTF-8");
-        System.out.println("Encoded: " + encoded);  // Output: Hello+World%21+%40+%23+%24
+        System.out.println("Encoded: " + encoded);  
 
         // Decoding back to original
         String decoded = java.net.URLDecoder.decode(encoded, "UTF-8");
-        System.out.println("Decoded: " + decoded);  // Output: Hello World! @ # $
+        System.out.println("Decoded: " + decoded);  
     }
 }
 ```
 
+- 
 
 ---
 
@@ -174,9 +174,9 @@ public class PasswordProtectedSite {
     public static void main(String[] args) throws IOException {
         URL url = new URL("https://www.example.com");
         
-        // Default authentication garne
+        
         URLConnection connection = url.openConnection();
-        connection.setDoOutput(true);  // Output stream open garne
+        connection.setDoOutput(true);  
         connection.getOutputStream().write("username:password".getBytes());
         
         BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
@@ -187,7 +187,6 @@ public class PasswordProtectedSite {
     }
 }
 ```
-
 
 
 ---
@@ -203,7 +202,6 @@ public class PasswordPromptSite {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         
-        // User bata username ra password lina
         System.out.print("Username: ");
         String username = sc.nextLine();
         System.out.print("Password: ");
@@ -212,7 +210,7 @@ public class PasswordPromptSite {
         URL url = new URL("https://www.example.com");
         URLConnection connection = url.openConnection();
 
-        // Authentication ko header set garne
+       
         String auth = username + ":" + password;
         String encodedAuth = new String(java.util.Base64.getEncoder().encode(auth.getBytes()));
         connection.setRequestProperty("Authorization", "Basic " + encodedAuth);
@@ -226,4 +224,4 @@ public class PasswordPromptSite {
 }
 ```
 
-
+-

@@ -6,6 +6,8 @@ Client-Server architecture is a model where clients (users) request services fro
 - The **server** processes the request and responds with the requested information.
 - Communication happens through network protocols like HTTP, FTP, or TCP/IP.
 
+![alt text](images/client.png)
+
 **Example:** A web browser (client) requests a webpage from a web server, and the server responds with the webpage content.
 
 ---
