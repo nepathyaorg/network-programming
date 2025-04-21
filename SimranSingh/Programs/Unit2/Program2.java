@@ -1,3 +1,6 @@
+//Write a JAVA program that
+//Displays both hostname and the cannonical hostname of a domain.
+//Utilizes getAddress() to determine if the given address is IPv4 or IPv6.
 
 import java.net.*;
 

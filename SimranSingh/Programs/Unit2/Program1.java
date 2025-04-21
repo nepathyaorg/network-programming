@@ -1,3 +1,4 @@
+//Write a JAVA program to illustrate different types of address.
 
 import java.net.*;
 
