@@ -3,7 +3,8 @@
 
 	 Roles of Client and Server
 	- Client: A client is a device or software that requests services or resources. For example, a web browser on a computer, a mobile app, or a user interface for interacting with a database can be a client.
-	- Server: A server is a system or software that provides services or resources to the client. It processes client requests and responds with the requested data,
+	- Server: A server is a system or software that provides services or resources to the client. It processes client requests and responds with the requested data.
+	(https://darvishdarab.github.io/cs421_f20/assets/images/client-server-1-d85a93ea16590c10bed340dd78294d0d.png)
 2. What are the factors to be considered when designing a software?
 	When designing software, several critical factors must be considered to ensure efficiency, scalability, and maintainability. Here are the key factors:
 
