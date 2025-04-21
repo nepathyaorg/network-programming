@@ -10,6 +10,7 @@
   Path /path/to/resource Specifies the resource's location on the server.
   Query Parameters ?query=value Provides additional information to the server.
   Fragment #section Points to a specific section within the resource.
+  <img src="./url-explained.png" width="400px" height="400px">
 
 **URLs vs URIs with examples for each. Can all URLs be URIs? Why?**
 
