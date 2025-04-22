@@ -63,7 +63,7 @@ public class AdressTypesDemo {
 
 ---
 
-## ✅ Java Program
+## Java Program
 
 This program:
 - Displays both the hostname and canonical hostname of a given domain.

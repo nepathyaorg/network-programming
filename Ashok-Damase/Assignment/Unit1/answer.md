@@ -21,8 +21,10 @@ Client-server architecture is a model where a client (a device or user) requests
 ![Client-Server Architecture](Client-server-model.svg.png)
 
 
+---
 
-## Question 2: Factors to Be Considered When Designing Software
+
+## Question 2: What are the factors to be considered when designing a software?
 
 ### a. Understanding User Needs:
 - **Functional Requirements:** Define what the software must do.
@@ -61,6 +63,8 @@ Client-server architecture is a model where a client (a device or user) requests
 - **Developer Notes:** Add comments and documentation in code.
 - **End-User Guides:** Create manuals and help sections for users.
 
+---
+
 
 ## Question 3: Why Do We Really Need Network Programming Tools and Platforms?
 
@@ -82,13 +86,9 @@ Network programming tools and platforms are essential for:
    - Sends/receives web service requests.
    - Helps test APIs and web applications.
 
-3. **PuTTY (Remote Access Tool):**
-   - Enables secure remote access to systems.
-   - Used for server management.
-
-4. **Node.js with socket.io (Real-Time Communication):**
+3. **Node.js with socket.io (Real-Time Communication):**
    - Builds real-time apps like chat or multiplayer games.
 
-5. **OpenSSL (Encryption Tool):**
+4. **OpenSSL (Encryption Tool):**
    - Provides encryption for secure communication.
    - Ensures websites use HTTPS.
