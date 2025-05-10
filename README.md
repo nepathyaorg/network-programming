@@ -38,3 +38,6 @@ network-programming(repo)
 
 ### Note:
 > Any code you write should be clear to you. Be confident and ready to explain it to your instructor or friends during the presentation.
+
+## How it works:
+![Client-Server Architecture](https://onlinenotesnepal.com/storage/images/mnfGHJsSJvcEADzmlWtbpgw2jYXNrq9i3BbAO4QE.png)
