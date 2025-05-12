@@ -18,7 +18,7 @@ A URL (Uniform Resource Locator) is the address used to access resources on the 
 ```text
 https://www.example.com:443/path/to/resource?name=value#section
 ```
-
+```text
 Protocol://Host:Port/Path?Query#Fragment
 | | | | | |
 | | | | | +--- Fragment (Optional)
@@ -27,6 +27,7 @@ Protocol://Host:Port/Path?Query#Fragment
 | | +----------------- Port (Optional)
 | +----------------------- Host (Domain Name/IP)
 +------------------------------- Protocol
+```
 
 ### 2. URLs vs URIs
 
