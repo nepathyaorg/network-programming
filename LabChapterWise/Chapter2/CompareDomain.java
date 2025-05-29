@@ -3,18 +3,22 @@ import java.net.*;
 public class CompareDomain {
     public static void main(String[] args) {
         try {
-            // Duita domain ko IP address khojne
-            InetAddress addr1 = InetAddress.getByName("www.google.com");
-            InetAddress addr2 = InetAddress.getByName("www.youtube.com");
+            // Getting IP addresses of both domains
+            InetAddress addr1 = InetAddress.getByName("www.ibiblio.org");
+            InetAddress addr2 = InetAddress.getByName("helios.ibiblio.org");
 
-            // Address compare garne
+            // Displaying the resolved IP addresses
+            System.out.println("IP Address of www.ibiblio.org: " + addr1.getHostAddress());
+            System.out.println("IP Address of helios.ibiblio.org: " + addr2.getHostAddress());
+
+            // Comparing the IP addresses
             if (addr1.equals(addr2)) {
-                System.out.println("Domain haru same address ma point cha.");
+                System.out.println("Both domain names point to the same address.");
             } else {
-                System.out.println("Domain haru different address ma chha.");
+                System.out.println("The domain names point to different addresses.");
             }
-        } catch (Exception e) {
-            System.out.println("Error aayo: " + e.getMessage());
+        } catch (UnknownHostException e) {
+            System.out.println("Error: Unable to resolve host - " + e.getMessage());
         }
     }
 }
